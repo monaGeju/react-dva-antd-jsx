@@ -1,0 +1,25 @@
+.pageWrapper{
+  position:relative;
+  width:100vw;
+  height:100vh;
+  background:#d8fdf47d;
+  text-align: center;
+}
+.loginContent{
+  position:absolute;
+  left:50%;
+  top:40%;
+  width:25%;
+  height:35%;
+  min-height:300px;
+  box-shadow: 0px 0px 25px #434242;
+  border-radius:5px;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%); /* IE 9 */
+  -webkit-transform:translate(-50%,-50%); /* Safari and Chrome */
+  background: url('../../../public/images/1.jpg');
+  background-size:100% 100%;
+}
+.pageTitle{
+  margin-top:50px;
+}
